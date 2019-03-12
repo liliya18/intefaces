@@ -1,0 +1,21 @@
+{
+  "name": "command-line-interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "shelljs": "^0.8.3"
+  },
+  "bin": {
+    "change-dir": "./changeDirectory.js",
+    "create-file": "./createFile.js",
+    "info": "./directoryInfo.js",
+    "rename-file": "./renameFile.js"
+  }
+}
